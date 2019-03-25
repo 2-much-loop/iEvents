@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_unknown_message">L\'événement est actuellement indisponible.\nMerci de réessayer plus tard.</string>
+    <string name="exit">Fermer</string>
+    <string name="title_before">Bientôt</string>
+    <string name="title_live">En direct</string>
+    <string name="row_recents">Récents</string>
+    <string name="row_more">Plus</string>
+    <string name="api_error_message">Impossible d\'accéder au réseau.\nVérifiez que vous êtes bien connecté à Internet et appuyez sur le bouton de rechargement pour réessayer.</string>
+    <string name="settings_message">Les réglages seront disponibles dans la prochaine version.</string>
+</resources>

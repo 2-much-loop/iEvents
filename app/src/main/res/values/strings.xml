@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">iEvents</string>
+    <string name="state_before">before</string>
+    <string name="state_live">live</string>
+    <string name="state_replay">replay</string>
+    <string name="state_unknown_message">The event is currently unavailable.\nPlease try again later.</string>
+    <string name="ok">OK</string>
+    <string name="exit">Exit</string>
+    <string name="intent_event">event</string>
+    <string name="title_replay">Replay</string>
+    <string name="title_before">Coming soon</string>
+    <string name="title_live">Live</string>
+    <string name="row_recents">Recents</string>
+    <string name="row_more">More</string>
+    <string name="api_link">https://api.time2code.net/iEvents</string>
+    <string name="api_error_message">Cannot access the network.\nMake sure you are connected to the Internet and hit the reload button to try again.</string>
+    <string name="settings_message">The settings will be made available in the next version.</string>
+</resources>
