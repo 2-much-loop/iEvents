@@ -6,7 +6,6 @@ import org.json.JSONObject;
 import java.io.Serializable;
 
 public class Event implements Serializable {
-    private String _id;
     private String link;
     private String date;
     private String desc;
@@ -17,7 +16,6 @@ public class Event implements Serializable {
     public Event(){}
 
     public Event(JSONObject jsonObject) throws JSONException {
-        this._id = jsonObject.getString("_id");
         this.link = jsonObject.getString("link");
         this.date = jsonObject.getString("date");
         this.desc = jsonObject.getString("desc");
@@ -26,22 +24,13 @@ public class Event implements Serializable {
         this.state = jsonObject.getString("state");
     }
 
-    public Event(String _id, String link, String date, String desc, String img, int position, String state){
-        this._id = _id;
+    public Event(String link, String date, String desc, String img, int position, String state){
         this.link = link;
         this.date = date;
         this.desc = desc;
         this.img = img;
         this.position = position;
         this.state = state;
-    }
-
-    public String get_id() {
-        return _id;
-    }
-
-    public void set_id(String _id) {
-        this._id = _id;
     }
 
     public String getLink() {
@@ -95,8 +84,7 @@ public class Event implements Serializable {
     @Override
     public String toString(){
         return "Event{" +
-                "_id=" + _id +
-                ", link='" + link + '\'' +
+                "link='" + link +
                 ", date='" + date + '\'' +
                 ", desc='" + desc + '\'' +
                 ", img='" + img + '\'' +

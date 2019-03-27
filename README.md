@@ -4,7 +4,7 @@ iEvents makes it easy to watch Apple's latest and upcoming keynotes on-demand an
 
 ## Download
 
-- **[Version 1.0](https://time2code.net/iEvents_1_0.apk)**
+- **[Version 1.0.1](https://time2code.net/iEvents_1_0_1.apk)**
 
 ## Requirements
 
